@@ -1,10 +1,35 @@
+body {
+    background: #02010a;
+    color: #fca311;
+    text-shadow: 2px 2px 10px black;
+}
+
 #Head {
 text-align: center;
-margin-top: 80px;
+margin-top: 40px;
+background-color: #2a628f;
+padding: 20px 0;
 }
 
 #headshot {
     width:20%;
     border: solid 0 black;
     border-radius: 100%; 
+    margin-top: 80px;
+
+}
+
+#bio {
+    width: 400px;
+    margin: 50px auto 0 auto;
+    font-size: larger;
+
+}
+
+.navigation {
+    background-color: #13293d;
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+    
 }
