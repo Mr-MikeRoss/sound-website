@@ -1,0 +1,10 @@
+#Head {
+text-align: center;
+margin-top: 80px;
+}
+
+#headshot {
+    width:20%;
+    border: solid 0 black;
+    border-radius: 100%; 
+}
