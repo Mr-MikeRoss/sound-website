@@ -16,21 +16,24 @@
         </header>
         <main>
             <section class="navigation">
-                <div id="e-prod"><h2>Electronic Productions</h2>
-                    <div class="audio">
-                        <audio controls id="stargaze">
-                            <source src="./audio/Star Gazer.wav" type="audio/wav">
-                        </audio>
-                        <audio controls>
-                            <source src="./audio/EDX Style Track.wav" type="audio/wav">
-                        </audio>
-                        <audio controls>
-                            <source src="./audio/EDM Foundation (Haus) {Master}.wav" type="audio/wav">
-                        </audio>
+                <div class="btn-group"">
+                    <button onclick="myFunction()" class="dropbtn">Electronic Productions</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="audio">
+                            <audio controls id="stargaze">
+                                <source src="./audio/Star Gazer.wav" type="audio/wav">
+                            </audio>
+                            <audio controls>
+                                <source src="./audio/EDX Style Track.wav" type="audio/wav">
+                            </audio>
+                            <audio controls>
+                                <source src="./audio/EDM Foundation (Haus) {Master}.wav" type="audio/wav">
+                            </audio>
+                        </div>
                     </div>
                 </div>
-                <div  id="s-design"><h2>Sound Design</h2></div> 
-                <div id="a-restore"><h2>Audio Restoration</h2></div>
+                <div  class="btn-group"><button>Sound Design</button></div> 
+                <div class="btn-group"><button>Audio Restoration</button></div>
             </section>
         </main>
     </body>
