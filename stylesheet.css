@@ -43,12 +43,26 @@ padding: 20px 0;
     padding: 50px 0;  
 }
 
+/*
 .uploads {
     background-color: transparent;
     color: #fca311;
     border: none;
     text-shadow: 2px 2px 20px rgba(252, 252, 252, 0.386);
     padding: 20px 0;
+}
+*/
+
+.collapsible {
+    background-color: transparent;
+    color: #fca311;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.606);
 }
 
 
@@ -57,10 +71,14 @@ audio::-webkit-media-controls-panel {
     background-color: rgba(78, 112, 125, 0.457);
 }
 
+.active, .collapsible:hover {
+    background-color: #13293d88;
+}
 
-.audio {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 25px;
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
 
